@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+
+  color: white;
+
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.background-image {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  z-index: -1;
+}
+
+.birthday-message {
+  margin: 0;
+
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 2px;
+
+  animation: fadeIn 2s ease;
+}
+
+
+.name {
+  margin: 10px 0 45px;
+
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+  animation: fadeIn 2.5s ease;
+}
+
+.surprise-button {
+  padding: 15px 35px;
+
+  background-color: white;
+  color: black;
+
+  border: none;
+  border-radius: 30px;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.35s ease;
+
+  animation: fadeIn 2.5s ease;
+}
+
+.surprise-button:hover {
+  transform: scale(1.15);
+  background-color: rgb(238, 238, 238);
+}
+
+.surprise-button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+
+  .birthday-message {
+    font-size: 40px;
+  }
+
+  .name {
+    font-size: 65px;
+    margin-bottom: 35px;
+  }
+
+  .surprise-button {
+    padding: 13px 30px;
+    font-size: 16px;
+  }
+}
+
