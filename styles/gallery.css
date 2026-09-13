@@ -1,3 +1,7 @@
+:root {
+  color-scheme: only light;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -29,7 +33,7 @@ body {
 
 .section-kicker {
   margin: 0 0 10px;
-  color: #ff3030;
+  color: #81613d;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 4px;
@@ -44,8 +48,36 @@ body {
 
 .section-description {
   margin-top: 15px;
-  color: #aaa;
+  color: #584747;
   font-size: 16px;
+}
+
+.birthday-letter {
+  margin: 25px auto;
+  padding: 20px;
+  background: rgba(255, 248, 225, 0.7);
+  border: 1px solid #8b6b3f;
+  color: #3f3020;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.birthday-letter p {
+  margin: 0 0 12px;
+}
+
+.birthday-letter p:first-child {
+  color: #2f2115;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.birthday-signature {
+  color: #7d1717;
+  font-style: italic;
 }
 
 
@@ -93,7 +125,6 @@ body {
   box-shadow: 0 18px 35px rgba(0, 0, 0, 0.6);
   z-index: 2;
 }
-
 
 /* Übergang */
 
@@ -468,3 +499,6 @@ body {
     right: 15px;
   }
 }
+
+
+
