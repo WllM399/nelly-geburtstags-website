@@ -1,3 +1,9 @@
+:root {
+  color-scheme: only light;
+  -webkit-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
 * {
   box-sizing: border-box;
 }
