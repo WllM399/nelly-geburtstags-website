@@ -116,13 +116,4 @@ body {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .surprise-button {
-    background-color: white !important;
-    color: black !important;
-  }
 
-  .surprise-button:hover {
-    background-color: rgb(238, 238, 238) !important;
-  }
-}
