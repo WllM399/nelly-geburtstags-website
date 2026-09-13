@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery</title>
+
+  <title>Nelly — Memories</title>
+
+  <link rel="stylesheet" href="styles/gallery.css">
 </head>
+
 <body>
-  
+  <main class="gallery-page">
+    <section class="polaroid-section">
+
+      <div class="section-heading">
+        <p class="section-kicker">THE GOOD PARTS</p>
+        <h1>Nelly — The Memories</h1>
+        <p class="section-description">
+          Manche Bilder kann man sich sogar geben 😝
+        </p>
+      </div>
+
+      <div class="polaroid-wall js-polaroid-wall"></div>
+
+    </section>
+
+
+
+    <section class="transition-section">
+      <p class="transition-small">BUT THEN...</p>
+      <h2>Things got a little bit weird</h2>
+      <p class="transition-description">WARNUNG: FORTFAHREN AUF EIGENE GEFAHR, GEHIRNSCHÄDIGUNGEN MÖGLICH, VERSTÖREND</p>
+      <p class="transition-arrow">↓</p>
+
+      <div class="classified-gate">
+        <p class="gate-label">RESTRICTED ACCESS</p>
+        <input class="gate-input js-gate-input" type="password" placeholder="PASSWORD">
+        <p class="gate-hint">Hinweis: Vorname des überwachten Subjects (alles kleingeschrieben)</p>
+        <button class="gate-button js-gate-button">GET ACCESS</button>
+        <p class="gate-error js-gate-error">ACCESS DENIED — FALSCHES PASSWORT</p>
+      </div>
+    </section>
+
+
+
+    <section class="evidence-section">
+      <div class="section-heading evidence-heading">
+        <p class="section-kicker">STRENG GEHEIM</p>
+        <h2>DIE NELLY-AKTEN</h2>
+        <p class="section-description">Hochvertrauliches Material. Anschauen auf eigene Gefahr.</p>
+      </div>
+
+      <div class="classified-access">
+        <p>CASE FILE // Danger</p>
+        <span>ACCESS LEVEL: ███████</span>
+      </div>
+
+      <div class="evidence-files js-evidence-files"></div>
+    </section>
+
+    <div class="image-modal js-image-modal">
+      <button class="image-modal-close js-image-modal-close">x</button>
+      <img class="image-modal-image js-image-modal-image" src="" alt="">
+    </div>
+
+  </main>
+
+
+
+  <script src="./scrips/gallery.js"></script>
 </body>
 </html>
