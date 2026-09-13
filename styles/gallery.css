@@ -499,3 +499,60 @@ body {
     right: 15px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #050505 !important;
+    color: rgb(253, 253, 253) !important;
+  }
+
+  .polaroid-section {
+    background: #e9ddb6 !important;
+  }
+
+  .polaroid-wall img {
+    background: #f5f5f5 !important;
+  }
+
+  .birthday-letter {
+    background: rgba(255, 248, 225, 0.7) !important;
+    color: #3f3020 !important;
+    border-color: #8b6b3f !important;
+  }
+
+  .birthday-letter p:first-child {
+    color: #2f2115 !important;
+  }
+
+  .section-description {
+    color: #584747 !important;
+  }
+
+  .transition-section {
+    background: #0b0b0b !important;
+  }
+
+  .evidence-section {
+    background: #050505 !important;
+  }
+
+  .evidence-file {
+    background: #101010 !important;
+    border-color: #292929 !important;
+  }
+
+  .gate-input {
+    background: #080808 !important;
+    color: white !important;
+  }
+
+  .gate-button {
+    background: #0b0b0b !important;
+    color: #9f2222 !important;
+  }
+
+  .evidence-reveal {
+    background: #090909 !important;
+    color: #b52a2a !important;
+  }
+}
