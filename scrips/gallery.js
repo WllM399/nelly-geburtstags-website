@@ -106,7 +106,7 @@ const gateError = document.querySelector('.js-gate-error');
 const evidenceSection = document.querySelector('.evidence-section');
 
 gateButton.addEventListener('click', () => {
-  if (gateInput.value.toLowerCase() === 'nelly') {
+  if (gateInput.value.toLowerCase() === 'melissa') {
     evidenceSection.classList.add('unlocked');
     gateError.classList.remove('active');
 
